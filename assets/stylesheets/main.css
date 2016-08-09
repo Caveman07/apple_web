@@ -1,0 +1,223 @@
+
+
+
+/* body */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+	color: #333;
+	background-color: #fff;
+	display: block;
+	width: 100%;
+}
+
+/* shell & container */
+
+.shell {
+
+	position: relative;
+	width: 100%;
+	margin-left: 3%;
+
+	/*padding-top: 47px*;*/
+	/*border-left: 1px solid #ccc;*/
+}
+
+header {
+	position: fixed;
+	display: block;
+	background-color: #fff;
+	border-color: #e2e2e2;
+	min-width: 315px;
+	width: 100%;
+
+}
+
+.container {
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	min-height: 47px;
+	box-shadow: -3px 0px 3px 0px #CCCCCC;
+
+}
+
+/*.container:before, .container:after {
+	display:table;
+	content: '';
+	line-height: 0;
+}*/
+
+
+/*button section in the navigation*/
+.left-navigation {
+	margin-top: 8px;
+	left:-15px;
+	position: relative;
+	float:left;
+}
+
+.user-tools {
+	margin-top: 8px;
+	margin-right: 60px;
+	float:right;
+	overflow: visible;
+	position: relative;
+}
+
+button {
+	margin-left: 0;
+	font-size: 0.6875rem;
+	line-height: 0.8125rem;
+	font-style: normal;
+	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 0;
+	padding: 7px 9px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+.sections-button {
+	box-shadow: 0 3px 2px 0 
+				rgba(0,0,0,0.06),
+				inset -1px -1px 1px 0 
+				rgba(0,0,0,0.02);
+	border-bottom-color: #cecece;
+	font-weight: 700;
+	margin-right: 6px;
+}
+
+
+
+.home-button {
+	color: #333;
+	background-color: transparent;
+	border: none;
+	font-weight: 700;
+	position: relative;
+	height: 30px;
+}
+
+.search-button {
+	color: #333;
+	background-color: transparent;
+	border: none;
+	font-weight: 700;
+	position: relative;
+	height: 30px;
+
+}
+
+.tools-group {
+	background-color:#6288a5;
+	border-color: #4d7b9f;
+	font-weight: 700;
+	color: #fff;
+}
+
+.user-settings-button {
+	color: #333;
+	background-color: transparent;
+	border: none;
+}
+
+button:hover{
+	background-color: #f7f7f7;
+}
+
+button.tools-group:hover {
+	background-color: #4d7b9f;
+}
+
+
+
+/*icons*/
+
+.burger-menu {
+
+	background-repeat: no-repeat;
+	background-position: -443px -214px;
+	width: 16px;
+	height: 16px;
+	margin-top: -1px;
+
+}
+
+.icon-home {
+	background-repeat: no-repeat;
+    background-position: -30px -280px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon {
+	display: inline-block;
+	line-height: 0;
+	vertical-align: middle;
+	font-size: normal;
+	background-image:
+		url(images/sprite-no-repeat.svg);
+	}
+
+
+.icon-search {
+	background-repeat: no-repeat;
+    background-position: -357px -214px;
+    width: 16px;
+    height: 16px;
+}
+
+.settings-icon {
+	background-repeat: no-repeat;
+    background-position: -494px -214px;
+    width: 16px;
+    height: 16px;
+}
+
+
+	/*button text*/
+
+.button-text {
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 2px;
+}
+
+
+
+/*logo*/
+
+.logo {
+
+
+
+	position: absolute;
+	top: 5px;
+	left: 40%;
+	margin-top: 8px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+img {
+	vertical-align: middle;
+	width: 187px;
+	height: 26px;
+}
+
+/*#logony {
+  background-image:
+		url(images/nyt-logo-185x26.svg);
+  display: block;
+ /* width: 981px;
+  height: 180px;*/
+/*}*/
